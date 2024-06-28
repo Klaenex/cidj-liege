@@ -1,0 +1,139 @@
+{
+  "centre_information": {
+    "nom": "Centre d'Information et de Documentation pour Jeunes de Liège",
+    "adresse": "Rue Sainte-Marguerite 82, 4000 Liège",
+    "contact": {
+      "telephone": "04 / 388 39 99",
+      "email": "infos@cidj-liege.be"
+    },
+    "horaires": {
+      "lundi": "Fermé",
+      "mardi": "Fermé",
+      "mercredi": "12h - 17h",
+      "jeudi": "12h - 17h",
+      "vendredi": "12h - 17h",
+      "samedi": "Fermé",
+      "dimanche": "Fermé"
+    },
+    "services": [
+      {
+        "nom": "Travail et insertion professionnelle",
+        "description": "Travail, job étudiant, aide à la rédaction de CV, lettre de motivation, préparation à l’entretien d’embauche, droits et devoirs, lecture des contrats, etc..."
+      },
+      {
+        "nom": "Qualité de vie",
+        "description": "Mobilité, aide à la recherche de logement, vers qui se tourner en cas de problème de santé ou de besoin psychologique, etc...."
+      },
+      {
+        "nom": "Protection sociale",
+        "description": "Information sur la mutuelle, chômage, aides sociales, etc."
+      },
+      {
+        "nom": "Vie affective et relationnelle",
+        "description": "Droit et devoirs familiaux, EVRAS, renseignements sur les plannings familiaux, etc..."
+      },
+      {
+        "nom": "Formation",
+        "description": "Information sur les différentes alternatives à l’enseignement de plein exercice, aide pour trouver un établissement, connaître les droits et devoirs, etc."
+      },
+      {
+        "nom": "Enseignement",
+        "description": "Information sur les différentes options, aide pour trouver une école, préparation aux examens, orientation scolaire, etc..."
+      },
+      {
+        "nom": "Ressources Documentaires",
+        "description": "Notre bibliothèque est équipée de livres et de fiches informatives ainsi que de brochures de différentes associations. Vous y trouverez des ressources précieuses pour répondre à vos questions et approfondir vos connaissances."
+      },
+      {
+        "nom": "Espace numérique",
+        "description": "Besoin d'accéder à internet, de faire des recherches ou d'imprimer des documents ? Nous mettons à votre disposition des ordinateurs et une imprimante pour vous aider dans vos études, vos recherches d'emploi et autres démarches."
+      },
+      {
+        "nom": "Permanence",
+        "description": "Information sur les différentes options, aide pour trouver une école, préparation aux examens, orientation scolaire, etc..."
+      },
+      {
+        "nom": "Rendez-vous pour un entretien",
+        "description": "Pour des entretiens plus approfondis et personnalisés, vous pouvez prendre rendez-vous, que ce soit pendant ou en dehors des heures d'ouverture. Contactez-nous pour fixer un rendez-vous à un moment qui vous convient."
+      }
+    ],
+    "animations": [
+      {
+        "nom": "Création de CV et lettres de motivation",
+        "description": "Séances d'animation pour la création de CV, lettres de motivation et préparation aux entretiens d'embauche."
+      },
+      {
+        "nom": "Recherche de travail étudiant",
+        "description": "Séances d'animation sur les programmes électoraux, le système électoral belge et le processus de vote."
+      },
+      {
+        "nom": "Préparation aux examens",
+        "description": "Utilisation de jeux de l’oie pour découvrir des techniques de gestion du stress, de mémorisation et de gestion du temps."
+      },
+      {
+        "nom": "Médiaddict",
+        "dates": ["4 juillet", "18 juillet", "21 août"]
+      },
+      {
+        "nom": "Permis de conduire",
+        "dates": ["5 juillet", "10 juillet", "19 juillet"]
+      },
+      {
+        "nom": "Orientation scolaire",
+        "dates": ["6 août", "13 août", "23 août"]
+      },
+      {
+        "nom": "Sécurité en ligne",
+        "dates": ["7 août", "19 août", "18 septembre"]
+      },
+      {
+        "nom": "Élections",
+        "dates": ["25 septembre", "2 octobre"]
+      },
+      {
+        "nom": "Identité et genre",
+        "dates": ["22 octobre", "25 octobre", "31 octobre"]
+      },
+      {
+        "nom": "Préparation aux examens",
+        "dates": ["27 novembre", "4 décembre", "11 décembre"]
+      }
+    ],
+    "description": "Au cœur du quartier Sainte-Marguerite, le CIDJ Liège est là pour être votre allié en vous donnant gratuitement, en toute confidentialité, toutes les informations dont vous avez besoin pour naviguer dans la société d’aujourd’hui.",
+    "accueil": {
+      "description": "Au cœur du quartier Sainte-Marguerite, le CIDJ Liège est là pour être votre allié en vous donnant gratuitement, en toute confidentialité, toutes les informations dont vous avez besoin pour naviguer dans la société d’aujourd’hui. Bienvenue au Centre d’Information et de Documentation pour Jeunes de Liège.",
+      "services": [
+        {
+          "nom": "Travail et insertion professionnelle",
+          "description": "Travail, job étudiant, aide à la rédaction de CV, lettre de motivation, préparation à l’entretien d’embauche, droits et devoirs, lecture des contrats, etc..."
+        },
+        {
+          "nom": "Qualité de vie",
+          "description": "Mobilité, aide à la recherche de logement, vers qui se tourner en cas de problème de santé ou de besoin psychologique, etc...."
+        },
+        {
+          "nom": "Protection sociale",
+          "description": "Information sur la mutuelle, chômage, aides sociales, etc."
+        },
+        {
+          "nom": "Vie affective et relationnelle",
+          "description": "Droit et devoirs familiaux, EVRAS, renseignements sur les plannings familiaux, etc..."
+        },
+        {
+          "nom": "Formation",
+          "description": "Information sur les différentes alternatives à l’enseignement de plein exercice, aide pour trouver un établissement, connaître les droits et devoirs, etc."
+        },
+        {
+          "nom": "Enseignement",
+          "description": "Information sur les différentes options, aide pour trouver une école, préparation aux examens, orientation scolaire, etc..."
+        }
+      ],
+      "engagement": {
+        "description": "Pour vous offrir le meilleur soutien possible, nous proposons des permanences régulières où vous pouvez obtenir des réponses à vos questions et de l'aide dans vos démarches. En plus de cela, vous avez la possibilité de prendre des rendez-vous en dehors des heures de permanence pour un entretien plus approfondi et personnalisé. Nous organisons également des stands d'information et des animations pour toucher un public plus large et répondre aux besoins de chacun.",
+        "gratuité": "Et tout cela, gratuitement !",
+        "invitation": "Que ce soit pour comprendre le monde qui vous entoure, pour participer à nos animations ou pour obtenir de l'aide dans vos démarches, n’hésitez pas à passer la porte du CIDJ Liège. Chez nous, vous trouverez une mine d'informations adaptées aux 12-26 ans.",
+        "conclusion": "Au CIDJ Liège, nous croyons au potentiel des jeunes pour faire une différence, venez nous rendre visite !"
+      }
+    }
+  }
+}
