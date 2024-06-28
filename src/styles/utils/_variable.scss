@@ -1,9 +1,4 @@
 @font-face {
-  font-family: "Dosis";
-  src: url("/fonts/Dosis-VariableFont_wght.ttf") format("ttf");
-  font-weight: 100 800;
-}
-@font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("ttf");
   font-weight: 100 800;
@@ -11,7 +6,7 @@
 
 $c-green: #60ffc6;
 $c-grey: #2b2b2b;
-$f-title: "Dosis", sans-serif;
+$f-title: "Montserrat", sans-serif;
 $f-text: "Montserrat", sans-serif;
 
 $screen-sm: 600px;
