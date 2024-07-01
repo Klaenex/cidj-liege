@@ -26,7 +26,7 @@ const Header = () => {
         </div>
 
         <div className={`menu ${isOpen ? "open" : ""}`}>
-          <div>
+          <div className="wrapper-menu">
             <Link to="/services" onClick={toggleMenu}>
               Services
             </Link>

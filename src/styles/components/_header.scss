@@ -6,25 +6,35 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  h1 {
+    z-index: 10;
+  }
 }
 
 .menu {
   position: absolute;
   top: 0;
   right: -100vw;
-  background: red;
-  opacity: 0.8;
+  background: white;
+  color: black;
   width: 100vw;
   height: 100vh;
   transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &.open {
     right: 0;
+  }
+  .wrapper-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
   }
 }
 
 .logo {
   max-width: 108px;
-  z-index: 10;
 }
 
 .burger-menu {
