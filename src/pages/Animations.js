@@ -12,8 +12,8 @@ function Animations({ data }) {
 
   return (
     <main>
-      <div>
-        <h2>{introduction.title}</h2>
+      <div className="wrapper wrapper--center">
+        <h2 className="title title-big">{introduction.title}</h2>
         <p>{introduction.content}</p>
       </div>
       <ul>

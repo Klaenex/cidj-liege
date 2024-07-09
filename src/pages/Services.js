@@ -8,28 +8,31 @@ function Services({ data }) {
 
   return (
     <main>
-      <div>
-        <h2>{introduction.title}</h2>
-        <p>{introduction.content}</p>
+      <div className="wrapper wrapper--title">
+        <div className="wrapper wrapper--text">
+          <h2 className="title title-big">{introduction.title}</h2>
+          <p>{introduction.content}</p>
+        </div>
+        <img src={imageService} alt="" srcSet="" />
       </div>
-      <img src={imageService} alt="" srcSet="" />
-      <h3>{offers.title}</h3>
-      <div>
-        <ul>
+
+      <h3 className="title title-big">{offers.title}</h3>
+      <div className="wrapper wrapper--title">
+        <ul className="list">
           {offers.items.slice(0, 2).map((item, index) => (
-            <li key={index}>
-              <h4>{item.title}</h4>
+            <li className="list_item" key={index}>
+              <h4 className="title title-list">{item.title}</h4>
               <p>{item.content}</p>
             </li>
           ))}
         </ul>
         <img src={imageService2} alt="" srcSet="" />
       </div>
-      <div>
-        <ul>
+      <div className="wrapper wrapper--title">
+        <ul className="list">
           {offers.items.slice(2).map((item, index) => (
-            <li key={index}>
-              <h4>{item.title}</h4>
+            <li className="list_item" key={index}>
+              <h4 className="title title-list">{item.title}</h4>
               <p>{item.content}</p>
             </li>
           ))}

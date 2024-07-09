@@ -2,5 +2,7 @@
 @import "./utils/_variable.scss";
 @import "./utils/_mixin.scss";
 
-@import "./components/_layout";
+@import "./components/font";
+@import "./components/layout";
 @import "./components/header";
+@import "./components/footer";
