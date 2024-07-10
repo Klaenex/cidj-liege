@@ -27,7 +27,7 @@ function Home({ data }) {
         </ul>
         <img src={imageAccueil2} alt="Cidj de Liege" />
       </div>
-      <div className="wrapper wrapper--title">
+      <div>
         <h3 className="title title-big">{engagement.title}</h3>
         {engagement.content.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>

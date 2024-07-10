@@ -17,7 +17,9 @@ main {
     margin: 2rem auto;
   }
 }
-
+.main--anim {
+  max-width: 1125px;
+}
 .wrapper {
   @include sm {
     &--title {
@@ -46,6 +48,7 @@ main {
     }
 
     &--center {
+      margin: 0 auto;
       max-width: 623px;
       text-align: center;
     }
@@ -56,9 +59,25 @@ main {
   margin: 0;
   padding: 0;
 
+  @include md {
+    &--services {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+    }
+  }
   .list_item {
     p {
       padding-left: 1rem;
+    }
+  }
+
+  @include md {
+    &_services {
+      max-width: 367px;
+      img {
+        max-width: 175px;
+      }
     }
   }
 }

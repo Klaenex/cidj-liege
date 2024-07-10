@@ -11,14 +11,14 @@ function Animations({ data }) {
   const images = [imageAnimation, imageAnimation2, imageAnimation3];
 
   return (
-    <main>
+    <main className="main--anim">
       <div className="wrapper wrapper--center">
         <h2 className="title title-big">{introduction.title}</h2>
         <p>{introduction.content}</p>
       </div>
-      <ul>
+      <ul className="list list--services">
         {recentActivities.items.map((item, index) => (
-          <li key={index}>
+          <li className="list_services" key={index}>
             <h3>{item.title}</h3>
             <p>{item.content}</p>
             <img
@@ -28,7 +28,7 @@ function Animations({ data }) {
           </li>
         ))}
       </ul>
-      <p>{recentActivities.content}</p>
+      <p className="text--center">{recentActivities.text}</p>
 
       <h3>{upcomingActivities.title}</h3>
       <ul>
